@@ -28,6 +28,10 @@
     color: #ffffff;
     }
 
+#navigation a:hover {
+    border-bottom: 2px solid;
+}
+
 .active {
     border-bottom: 2px solid;
 }
