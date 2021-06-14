@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    background: #0C6174;
 }
 
 #navigation {
@@ -16,6 +15,7 @@
     height: 75px;
     text-align: center;
     list-style-type: none;
+    z-index: 1;
 }
 
 #navigation li {
@@ -36,8 +36,27 @@
     border-bottom: 2px solid;
 }
 
+#overlay {
+    color: #ffffff;
+    font-family: Amatic SC, sans-serif;
+    font-size: 500%;
+    letter-spacing: 2px;
+    width: 500px;
+    height: 200px;
+    padding-top: 30px;
+    padding-left: 40px;
+    background-color: rgba(94, 194, 94, .5);
+    bottom: 30px;
+    right: 30%;
+    position: absolute;
+}
+
 #hero-img {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.jpg') center center;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+}
+
+#hero-contain {
+    position: relative;
 }
