@@ -88,9 +88,10 @@ h1 {
     padding-bottom: 30px;    
 }
 
-#walks {
+.walks {
     background-color: #4e8a84; 
-    display: inkine-block;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .specific-walk {
@@ -101,9 +102,9 @@ h1 {
     display: inline-block;
     height: 820px;
     width: 500px; 
-    }
-
-#walks h1 {
+}
+    
+.walks h1 {
     font-size: 50px;
     text-align: center;
 }
@@ -111,4 +112,14 @@ h1 {
 iframe {
     border-radius: 25px;
     padding-top: 25px;
+}
+
+#walk-1 {
+    float: left;
+    margin-left: 10%;
+}
+
+#walk-2 {
+    float: right;
+    margin-right: 10%;
 }
