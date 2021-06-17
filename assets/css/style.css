@@ -17,6 +17,11 @@ p {
     margin-right: 40px;
 }
 
+h1 {
+    font-family: Amatic SC, sans-ferif;
+    color:#ffffff;
+}
+
 #navigation {
     background-color: #4e8a84;
     font-family: Josefin Slab, sans-serif;
@@ -81,4 +86,29 @@ p {
 #intro {
     background-color: #4e8a84;
     padding-bottom: 30px;    
+}
+
+#walks {
+    background-color: #4e8a84; 
+    display: inkine-block;
+}
+
+.specific-walk {
+    vertical-align: top;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    display: inline-block;
+    height: 820px;
+    width: 500px; 
+    }
+
+#walks h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+iframe {
+    border-radius: 25px;
+    padding-top: 25px;
 }
