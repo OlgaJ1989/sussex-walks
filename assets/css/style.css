@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Slab&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -9,7 +9,7 @@
 p {
     font-family: Josefin Slab, sans-serif;
     letter-spacing: 2px;
-    font-size:150%;
+    font-size: 150%;
     color: #ffffff;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -20,16 +20,15 @@ p {
 
 h1 {
     font-family: Amatic SC, sans-ferif;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 #navigation {
     background-color: #4e8a84;
     font-family: Amatic SC, sans-serif;
-    font-size:200%;
+    font-size: 200%;
     letter-spacing: 2px;
     width: 100%;
-    
     text-align: center;
     list-style-type: none;
     z-index: 1;
@@ -43,7 +42,7 @@ h1 {
 #navigation a {
     text-decoration: none;
     color: #ffffff;
-    }
+}
 
 #navigation a:hover {
     border-bottom: 2px solid;
@@ -65,7 +64,7 @@ h1 {
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 50%;
-    background-color: rgba(78,138,132,.5);
+    background-color: rgba(78, 138, 132, .5);
     position: absolute;
     top: 0;
     right: 0;
@@ -86,11 +85,11 @@ h1 {
 
 #intro {
     background-color: #4e8a84;
-    padding-bottom: 30px;    
+    padding-bottom: 30px;
 }
 
 .walks {
-    background-color: #4e8a84; 
+    background-color: #4e8a84;
     padding-bottom: 30px;
     padding-top: 30px;
 }
@@ -102,7 +101,7 @@ h1 {
     padding: 20px;
     display: inline-block;
     height: 100%;
-    width:33%;
+    width: 33%;
 }
 
 .walks h1 {
@@ -126,6 +125,25 @@ h1 {
 
 iframe {
     border-radius: 25px;
+}
+
+footer {
+    height: 100px;
+    background-color: #4e8a84;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 260%;
+    margin: 1%;
+    color: #ffffff;
 }
 
 /*
