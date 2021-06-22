@@ -160,6 +160,17 @@ footer {
     border-radius: 25px;
 }
 
+#your-walk h1 {
+    text-align: center;
+    font-size: 350%;
+    letter-spacing: 2px;
+    padding-top: 30px;
+}
+
+#your-walk {
+    background-color: #4e8a84;
+}
+
 /*
 #undercliff {
     float: left;
