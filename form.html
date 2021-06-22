@@ -18,13 +18,13 @@
         <nav>
             <ul id="navigation">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" aria-label="Go to the Home page">Home</a>
                 </li>
                 <li>
-                    <a href="gallery.html">Gallery</a>
+                    <a href="gallery.html" aria-label="Go to the Gallery page">Gallery</a>
                 </li>
                 <li>
-                    <a href="form.html" class="active">Design A Walk</a>
+                    <a href="form.html" class="active" aria-label="Go to the Design your Walk page">Design Your Walk</a>
                 </li>
                 <li>
                     <a href="#">Contact Us</a>
@@ -32,30 +32,82 @@
             </ul>
         </nav>
     </header>
+
     <section id="your-walk">
         <h1>Design Your Own Walk</h1>
-        <p>Fill in the below form and we will design your perfect walk for you.</p>
+        <p>Fill in the below form submit your details and we will send you customised walk ideas.</p>
+
+        <form action="#" method="POST">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email address:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <p>What type of walks do you prefer?</p>
+
+            <input id="urban" name="walk-type" value="urban" type="radio" required>
+            <label for="urban">Urban walks</label>
+
+            <input id="nature" name="walk-type" value="nature" type="radio" required>
+            <label for="nature">Nature walks</label>
+
+            <input id="both" name="walk-type" value="both" type="radio" required>
+            <label for="both">Both</label>
+
+            <p>How difficult would you like the walk to be?</p>
+
+            <input id="flat" name="walk-difficulty" value="flat" type="radio" required>
+            <label for="flat">Flat</label>
+
+            <input id="hilly" name="walk-difficulty" value="hilly" type="radio" required>
+            <label for="hilly">Hilly</label>
+
+            <input id="both" name="walk-difficulty" value="both" type="radio" required>
+            <label for="both">Doesn't matter as long as I walk!</label>
+
+            <p>What would you like to experience / see / visit?</p>
+
+            <input type="checkbox" id="sea" name="sea" value="Sea">
+            <label for="sea">A dip in the sea would be nice</label><br>
+            <input type="checkbox" id="coffee" name="coffee" value="Coffee">
+            <label for="coffee"> I'd love to have a coffee break</label><br>
+            <input type="checkbox" id="pub" name="pub" value="Pub">
+            <label for="pub">How about a pint in the pub</label><br>
+            <input type="checkbox" id="nature" name="nature" value="nature">
+            <label for="nature"></label>Don't need the above - just me and nature</label><br> 
+            <input type="checkbox" id="architecture" name="architecture" value="Architecture">
+            <label for="architecture"></label>Interesting architecture</label><br>
+            <input type="submit" value="Submit">
+
+
+            
+            
+            
+
+        </form>
 
     </section>
-    
- 
+
+
     <footer>
         <ul class="social-media">
             <li>
                 <a href="https://en-gb.facebook.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
             </li>
             <li>
                 <a href="https://twitter.com/?lang=en-gb" target="_blank" rel="noopener"
-                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
             </li>
             <li>
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
                 <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
             </li>
         </ul>
     </footer>
