@@ -19,7 +19,7 @@ p {
 }
 
 h1 {
-    font-family: Amatic SC, sans-ferif;
+    font-family: Amatic SC, sans-serif;
     color: #ffffff;
 }
 
@@ -164,6 +164,7 @@ iframe {
 footer {
     height: 100px;
     background-color: #4e8a84;
+    padding-top: 30px;
 }
 
 .social-media {
@@ -209,17 +210,59 @@ footer {
     margin: auto;
 }
 
-#your-walk h1 {
+#contact-us h1 {
     text-align: center;
     font-size: 350%;
     letter-spacing: 2px;
     padding-top: 30px;
 }
 
-#your-walk {
+#contact-us {
     background-color: #4e8a84;
 }
 
+input[type=text], input[type=email], textarea {
+    border: 3px solid #73AD21;
+    border-radius: 6px;
+    height: 30px;
+    width: 200px;
+}
+
+input[type=submit] {
+    border: 3px solid #73AD21;
+    color: #ffffff;
+    border-radius: 6px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    background-color: #73AD21;
+}
+
+#submit {
+    text-align: center;
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: Amatic SC, sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 150%;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+#form div {
+    text-align: center;
+}
+
 form p {
-    text-align: left;
-    }
+    font-size: 120%;
+    display: inline;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+}
