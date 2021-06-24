@@ -68,7 +68,8 @@ h1 {
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 50%;
-    background-color: rgba(78, 138, 132, .5);
+    /*background-color: rgba(78, 138, 132, .5);*/
+    background-color: rgba(85, 158, 121, .5);
     position: absolute;
     top: 0;
     right: 0;
@@ -99,7 +100,7 @@ h1 {
 /* Popular Walks */
 
 .walks {
-    background-color: #4e8a84;
+    background-color: #559e79;
     padding-bottom: 30px;
     padding-top: 30px;
     width: 100%;
@@ -109,7 +110,8 @@ h1 {
 .specific-walk {
     vertical-align: top;
     border-radius: 25px;
-    border: 2px solid #73AD21;
+    /*border: 2px solid #73AD21;*/
+    border: 2px solid #4e8a84;
     padding: 20px;
     display: inline-block;
     height: 100%;
@@ -186,7 +188,8 @@ footer {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
-    background-color: #4e8a84;
+    /*background-color: #4e8a84;*/
+    background-color: #559e79;
 }
 
 #gallery img {
@@ -208,6 +211,7 @@ footer {
     bottom: 0;
     left: 0;
     margin: auto;
+    background-color: #559e79;
 }
 
 #contact-us h1 {
@@ -254,12 +258,11 @@ h3 {
 }
 
 #form div {
-    text-align: center;
+    text-align: center;    
 }
 
 form p {
     font-size: 120%;
-    display: inline;
 }
 
 textarea {
