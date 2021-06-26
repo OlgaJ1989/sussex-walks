@@ -166,6 +166,8 @@ h3 {
 
 iframe {
     border-radius: 25px;
+    width: 100%;
+    height: auto;
 }
 
 /* Footer */
