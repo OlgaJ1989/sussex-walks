@@ -72,7 +72,7 @@ h3 {
     border-bottom: 2px solid;
 }
 
-/* Overlay */
+/* Overlay and hero image */
 
 #overlay {
     color: #ffffff;
@@ -86,7 +86,6 @@ h3 {
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 50%;
-    /*background-color: rgba(78, 138, 132, .5);*/
     background-color: rgba(85, 158, 121, .5);
     position: absolute;
     top: 0;
@@ -95,8 +94,6 @@ h3 {
     left: 0;
     margin: auto;
 }
-
-/* Hero Image */
 
 #hero-img {
     height: 500px;
@@ -235,7 +232,9 @@ footer {
     background-color: #4e8a84;
 }
 
-input[type=text], input[type=email], textarea {
+input[type=text],
+input[type=email],
+textarea {
     border: 3px solid #73AD21;
     border-radius: 6px;
     height: 30px;
@@ -258,7 +257,7 @@ input[type=submit] {
 }
 
 #form div {
-    text-align: center;    
+    text-align: center;
 }
 
 form p {
