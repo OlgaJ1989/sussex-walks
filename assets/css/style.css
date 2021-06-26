@@ -173,7 +173,8 @@ iframe {
 footer {
     height: 100px;
     background-color: #4e8a84;
-    padding-top: 30px;
+    padding-top: 15px;
+    width: 100%;
 }
 
 .social-media {
