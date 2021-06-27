@@ -96,22 +96,6 @@ h3 {
     margin: auto;
 }
 
-@media (max-width: 600px) {
-    #overlay {
-        font-size: 300%;
-        width: 400px;
-        height: 150px;
-    }
-}
-
-@media (max-width: 450px) {
-    #overlay {
-        font-size: 200%;
-        width: 280px;
-        height: 120px;
-    }
-}
-
 #hero-img {
     height: 500px;
     width: 100%;
@@ -224,35 +208,6 @@ footer {
     border-radius: 25px;
 }
 
-@media (max-width: 1060px) {
-    .walks {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-
-    .walks {
-        flex-direction: column;
-    }
-}
-
-
-@media (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
-
-    .walks {
-        flex-direction: column;
-    }
-}
-
 /* Form */
 
 #form {
@@ -318,6 +273,32 @@ textarea {
     height: 150px;
 }
 
+/* Walking Tips */
+
+#walking-tips {
+    width: 100%;
+    height: 100%;
+    background-color: #559e79;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#walking-tips i {
+    font-size: 80%;
+}
+
+#walking-tips > h2 {
+    padding: 0 20px 0 20px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1060px) {
+    .walks {
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 1000px) {
     #form {
         width: 70%;
@@ -338,6 +319,15 @@ textarea {
     input[type=email] {
         width: 60%;
     }
+
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .walks {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 600px) {
@@ -349,18 +339,27 @@ textarea {
     input[type=email] {
         width: 80%;
     }
+
+    #overlay {
+        font-size: 300%;
+        width: 400px;
+        height: 150px;
+    }
+
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .walks {
+        flex-direction: column;
+    }
 }
 
-/* Walking Tips */
-
-#walking-tips {
-    width: 100%;
-    height: 100%;
-    background-color: #559e79;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-#walking-tips i {
-    font-size: 80%;
+@media (max-width: 450px) {
+    #overlay {
+        font-size: 200%;
+        width: 280px;
+        height: 120px;
+    }
 }
