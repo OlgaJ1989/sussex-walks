@@ -113,6 +113,10 @@ h3 {
     padding-bottom: 30px;
 }
 
+#intro p {
+    padding-bottom: 0;
+}
+
 /* Popular Walks */
 
 .flex-item {
@@ -126,11 +130,16 @@ h3 {
 }
 
 .specific-walk {
-    vertical-align: top;
+    /*vertical-align: top;*/
     border-radius: 25px;
     border: 2px solid #4e8a84;
-    display: inline-block;
-    width: 33%;
+    /*display: inline-block;*/
+    /*width: 33%;*/
+}
+
+.specific-walk p {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #popular-walks {
