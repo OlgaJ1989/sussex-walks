@@ -132,6 +132,10 @@ h3 {
     padding-top: 30px;
 }
 
+.flex-container > div {
+    margin: 10px;
+}
+
 .specific-walk {
     vertical-align: top;
     border-radius: 25px;
