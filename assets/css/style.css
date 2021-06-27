@@ -365,6 +365,10 @@ textarea {
     .walks {
         flex-direction: column;
     }
+
+    #hero-img {
+        height: 400px;
+    }
 }
 
 @media (max-width: 480px) { 
@@ -372,5 +376,9 @@ textarea {
         font-size: 200%;
         width: 280px;
         height: 120px;
+    }
+
+    #hero-img {
+        height: 300px;
     }
 }
