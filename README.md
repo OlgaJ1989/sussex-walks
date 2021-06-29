@@ -75,7 +75,9 @@ I would like to include another page consisting of a form and called Design Your
 * Check that the links in the navigation bar navigate to correct pages 
 * Check that the social media pages in the Footer open in new tabs
 * Check that the name of the page user is currently on is highlighted in the navigation bar.
-* Check that each of the navigation bar elements displays an underline when hovered over. 
+* Check that each of the navigation bar elements displays an underline when hovered over.
+* Check validation of the form
+ 
 
 ### Validator testing
 
