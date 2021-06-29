@@ -32,7 +32,7 @@ h2 {
     font-size: 250%;
 }
 
-h3 {
+span {
     font-family: Amatic SC, sans-serif;
     color: #ffffff;
     letter-spacing: 2px;
@@ -40,6 +40,7 @@ h3 {
     font-size: 150%;
     padding-bottom: 5px;
     padding-top: 15px;
+    display: block;
 }
 
 /* Navigation */
