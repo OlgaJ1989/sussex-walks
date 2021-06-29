@@ -97,6 +97,10 @@ h3 {
     margin: auto;
 }
 
+#overlay h2 {
+    font-size: 150%;
+}
+
 #hero-img {
     height: 500px;
     width: 100%;

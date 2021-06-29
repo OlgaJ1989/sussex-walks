@@ -113,7 +113,7 @@ I would like to include another page consisting of a form and called Design Your
         2. Fill in the form leaving different input areas empty each time to make sure there is a warning message displayed each time you leave any of the fields empty. 
     * Result: 
         * The form cannot be submitted until each of the input fields has been filled in correctly so the validation is working.
-        
+
 ### Validator testing
 
 ### Unfixed bugs
