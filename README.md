@@ -141,7 +141,7 @@ The written content has been developed by me, Olga Jasinska, using my past exper
 
 ### Media 
 
-All photos have been taken from my private collection. 
+All photos have been taken from my private collection or provided by my partner Ben Butler with his permission. 
 
 ### Code
 
