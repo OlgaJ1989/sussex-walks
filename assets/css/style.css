@@ -118,6 +118,13 @@ h3 {
     padding-bottom: 30px;
 }
 
+#intro h1 {
+    text-align: center;
+    font-size: 350%;
+    letter-spacing: 2px;
+    padding-top: 25px;
+}
+
 #intro p {
     padding-bottom: 0;
 }
