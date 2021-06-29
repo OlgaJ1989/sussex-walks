@@ -74,43 +74,43 @@ I would like to include another page consisting of a form and called Design Your
 * Check the responsiveness of the website on different screen sizes across different browsers (Chrome, Firefox, Opera).
     * Test:
         1. Open the website in each of the aforementioned browsers.
-        2. Right-click on the screen and choose 'Inspect' ('Inspect element' on Opera).
-        3. Grab and drag the responsive window slowly down to 300px and then back again, checking that everything is displayed correctly in each size / breakpoint.
+        1. Right-click on the screen and choose 'Inspect' ('Inspect element' on Opera).
+        1. Grab and drag the responsive window slowly down to 300px and then back again, checking that everything is displayed correctly in each size / breakpoint.
     * Result:
         * All elements are responsive and display correctly in each of the browsers and in each of the window sizes.
 
 * Check that the links in the navigation bar navigate to correct pages. 
     * Test:
         1. Open the website in a browser.
-        2. Click on all navigation items (Home, Walking Tips, Gallery, Contact Us) one by one to make sure the attached links are correct and that they lead the user to the correct parts of the website.
+        1. Click on all navigation items (Home, Walking Tips, Gallery, Contact Us) one by one to make sure the attached links are correct and that they lead the user to the correct parts of the website.
     * Result:
         * All links working and directing user to the correct pages.
 
 * Check that the links to social media pages in the Footer work and open in new tabs.
     * Test:
         1. Open the website in a browser.
-        2. Click on all social media links (Facebook, Twitter, YouTube, Instagram) one by one to make sure that the links are in working order and that they all open in a separate tab.
+        1. Click on all social media links (Facebook, Twitter, YouTube, Instagram) one by one to make sure that the links are in working order and that they all open in a separate tab.
     * Result:
         * All links are working and all of them open in separate / new tabs.
 
 * Check that the name of the page user is currently on is highlighted (underlined) in the navigation bar.
     * Test:
         1. Open the website.
-        2. Open each of the pages in the navigation bar to see whether the active page is underlined in the menu.
+        1. Open each of the pages in the navigation bar to see whether the active page is underlined in the menu.
     * Result:
         * Each of the navigation bar elements becomes underlined when the page is active.
     
 * Check that each of the navigation bar elements displays as underlined when hovered over.
     * Test:
         1. Open the website.
-        2. Hover over each of the navigation bar elements with the cursor to make sure that they display and underline when hovered over. 
+        1. Hover over each of the navigation bar elements with the cursor to make sure that they display and underline when hovered over. 
     * Result:
         * Each element becomes udenrlined when hovered over with a mouse cursor.
                 
 * Check validation of the Contact Us form.
     * Test:
         1. Open the website in a browser and navigate to the Contact Us page.
-        2. Fill in the form leaving different input areas empty each time to make sure there is a warning message displayed each time you leave any of the fields empty. 
+        1. Fill in the form leaving different input areas empty each time to make sure there is a warning message displayed each time you leave any of the fields empty. 
     * Result: 
         * The form cannot be submitted until each of the input fields has been filled in correctly so the validation is working.
 
@@ -125,9 +125,28 @@ No other bugs found.
 
 ## Deployment
 
+Sussex Walks was deployed to GitHub Pages by following the below steps:
+1. Navigate to the ['sussex-walks' repository](https://github.com/OlgaJ1989/sussex-walks) on GitHub.
+1. Navigate to the 'Settings' tab.
+1. Navigate to 'Pages' from the menu on the left. 
+1. Select 'master' branch in the source drop-down.
+1. Click 'Save'.
+1. A link to the live deployed page is generated and can be found here: https://olgaj1989.github.io/sussex-walks/
+
 ## Credits
 
-### Content
+### Content 
 
-### Media
+The written content has been developed by me, Olga Jasinska, using my past experience of walking in and around of Brighton. 
 
+### Media 
+
+All photos have been taken from my private collection. 
+
+### Code
+
+When creating flexbox and media queries I used tutorials and some base code from [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp) modules on CSS Flexbox and CSS Flex Responsive.  
+
+### Acknowledgements
+
+I'd like to thank my mentor Daisy McGirr for her guidance throughout this project.
