@@ -21,7 +21,7 @@ The website can be accessed [here](https://olgaj1989.github.io/sussex-walks/).
     ![Title](https://github.com/OlgaJ1989/sussex-walks/blob/master/docs/title.png)
 
 * Intro
-    * A small section explaining the purpose of the website nad the type of walks people can find in Sussex. 
+    * A small section explaining the purpose of the website and the type of walks people can find in Sussex. 
 
     ![Intro](https://github.com/OlgaJ1989/sussex-walks/blob/master/docs/intro.png)
 
