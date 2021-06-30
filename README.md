@@ -116,8 +116,6 @@ I would like to include another page consisting of a form and called Design Your
     * Result: 
         * The form cannot be submitted until each of the input fields has been filled in correctly so the validation is working.
 
-### Lighthouse audit
-
 ### Validator testing
 
 * HTML - when the code was passed through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html) I have received the following error notification: "Element h3 not allowed as child of element label in this context." referring to all input labels in the Contact Us form. To fix this, I have changed all <h3> elements to <span> elements as per the advice found in [this Stackoverflow post](https://stackoverflow.com/questions/50068995/element-h3-not-allowed-as-child-of-element-label-in-this-context-html). No further errors have been found after I applied this fix and passed the code through the validator again.
