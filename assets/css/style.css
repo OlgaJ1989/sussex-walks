@@ -308,7 +308,7 @@ textarea {
     font-size: 80%;
 }
 
-#walking-tips > h2 {
+#walking-tips>h2 {
     padding: 0 20px 0 20px;
 }
 
@@ -351,7 +351,7 @@ textarea {
     }
 }
 
-@media (max-width: 600px) { 
+@media (max-width: 600px) {
     #form {
         width: 90%;
     }
@@ -381,7 +381,7 @@ textarea {
     }
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
     #overlay {
         font-size: 200%;
         width: 280px;
